@@ -48,7 +48,7 @@ const Util = {
         if (pageName === 'resume-builder') {
             return true;
         }
-        return false;
+        return true;
     },
 };
 

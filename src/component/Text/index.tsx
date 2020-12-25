@@ -15,7 +15,6 @@ interface TProps extends DivProps {
     value: any;
     customclass: any;
     tag: any;
-    // children: React.ReactNode
 }
 
 const defaultProps: TProps = {
@@ -78,11 +77,8 @@ function Text(props: TProps) {
                 // className={"contentEditableContainer " + customclass}
                 className={styles.contentEditableContainer + ' ' + customclass}
                 {...(props as any)}
-                // placeholder=""
             />
         </>
-        //     {this.props.value}
-        // </p>
     );
 }
 
