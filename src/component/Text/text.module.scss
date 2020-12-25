@@ -1,0 +1,29 @@
+@import '../../theme/colors';
+
+.contentEditableContainer {
+    padding: 4px 2px;
+    white-space: pre-line;
+    // border: 1px dashed #fff;
+    border-radius: 4px;
+    outline: 0;
+}
+
+.contentEditableContainer:focus {
+    // border-bottom: 1px dashed #a1a1a1;
+    border-bottom: 1px solid rgba(150,150,150,.7);
+    border-radius: 4px;
+    // background-color: #efefef;
+    outline: 0;
+    font-family: 'Roboto'!important;
+    font-weight: 400;
+}
+.contentEditableContainer:active {
+    // border: 1px dashed #a1a1a1;
+    border-radius: 4px;
+    outline: 0;
+}
+.contentEditableContainer:visited {
+    // border: 1px dashed #a1a1a1;
+    border-radius: 4px;
+    outline: 0;
+}
