@@ -9,9 +9,7 @@ export default function Footer() {
                 <div className={['row', styles.footerNav].join(' ')}>
                     <div className="col-md-4">
                         <Link href="/">
-                            <a>
-                                {/* <img src="/images/logo1.png" alt="wtfresume logo (resume builder)" className={styles.logo} /> */}
-                            </a>
+                            <a>{/* <img src="/images/logo1.png" alt="wtfresume logo (resume builder)" className={styles.logo} /> */}</a>
                         </Link>
                     </div>
                     <div className="col-md-4">

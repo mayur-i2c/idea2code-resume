@@ -163,7 +163,7 @@ class Dnd2Column extends Component {
 
     render() {
         return (
-            <div style={{ display: 'flex' }}>
+            <div className={styles.mainContainer}>
                 <DragDropContext onDragEnd={this.onDragEnd}>
                     <Droppable droppableId="droppable">
                         {(provided, snapshot) => (

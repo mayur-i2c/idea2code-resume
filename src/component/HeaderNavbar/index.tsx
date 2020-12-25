@@ -29,7 +29,7 @@ export default function HeaderNavbar() {
                         <div className={styles.navItem}>EN</div>
 
                         <div className={styles.navItem}>
-                            <a  target="_blank" rel="noopener noreferrer">
+                            <a target="_blank" rel="noopener noreferrer">
                                 github
                             </a>
                         </div>

@@ -23,7 +23,7 @@ const initialState = {
         fontFamily: 'Source Sans Pro',
     },
     itemStatus: {
-        picture: false,
+        picture: true,
         info: true,
         profile: true,
         workExperience: true,

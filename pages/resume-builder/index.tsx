@@ -28,7 +28,7 @@ const Home = (props: TProps) => {
                 <title>resume builder</title>
             </Head>
             <div style={{ fontFamily: props.theme.fontFamily }}>
-                <div className={styles.loading} style={{ background: "#313B47" }}>
+                <div className={styles.loading} style={{ background: '#313B47' }}>
                     <div className={styles.loading_gradient}></div>
                 </div>
 
@@ -41,7 +41,7 @@ const Home = (props: TProps) => {
             <Footer />
         </>
     );
-}
+};
 const mapStateToProps = (store: any) => ({
     theme: store.theme,
     userData: store.userData,

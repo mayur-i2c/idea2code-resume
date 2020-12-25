@@ -8,7 +8,7 @@ import { Text, Dnd2Column } from '@component';
 
 import { addSkill, updateSkill, deleteSkillData } from '../../../../redux/core/actions';
 
-// import styles from './skills.module.scss';
+import styles from './skills.module.scss';
 
 function Skills(props) {
     const dispatch = useDispatch();
@@ -35,7 +35,7 @@ function Skills(props) {
             additem={_addNewItem}
             removeitem={(e) => _removeItem(e, data)}
             renderItem={(item) => (
-                <div style={{ background: '#fff' }}>
+                <div className={styles.skillmaincontainer}>
                     <Text value={item.title} statename="skills.title" stateid={item.id} placeholder="React Native" />
                 </div>
             )}

@@ -42,7 +42,7 @@ class Home extends React.Component<TProps, TState> {
 
     componentDidMount() {
         const exportStatus = Util.getQueryString(window.location, 'export');
-        console.log('exportStatus',exportStatus)
+        console.log('exportStatus', exportStatus);
         this.setState({ exportStatus });
 
         const data = Util.getQueryString(window.location, 'data');

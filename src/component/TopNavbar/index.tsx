@@ -295,7 +295,7 @@ class TopNavbar extends React.Component<TProps, TState> {
                             onClick={this._colorBtnPress}
                         >
                             <div className={[styles.topNavbarColor].join(' ')}>
-                                <div className={styles.topPart} >
+                                <div className={styles.topPart}>
                                     {/* <i className="material-icons">color_lens</i> */}
                                     <i className="material-icons">colorize</i>
                                     {/* <i className="material-icons">brush</i> */}
